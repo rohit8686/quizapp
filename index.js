@@ -5,7 +5,6 @@ console.log("Welcome " + name+" !");
 console.log("This will test you how well you know me " + name);
 
 function play(question,answer,i){
-  // console.log(question);
   var userInput = readlineSync.question(question);
   if(userInput.toUpperCase() === answer.toUpperCase()){
     if(i===questions.length-1){
